@@ -19,9 +19,8 @@ matrix:
           - '.spell-ignore'
           - '.md-footer__link--prev'
           - '.md-footer__link--next'
-          - '#mkdocs-encrypted-content'
-          - '#mkdocs-encrypted-config'
-          - '.mkdocs-encrypted-toc'
+          - '.md-author'
+          - '.spell-ignore'
       - pyspelling.filters.url:
     sources:
       - site/**/*.html
