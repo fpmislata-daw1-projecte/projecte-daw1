@@ -1,0 +1,8 @@
+mkdocs~=1.6
+mkdocs-material~=9.5
+mkdocs-material[imaging]
+mkdocs-alias-plugin~=0.8
+pymdown-extensions~=10.12
+mkdocs-awesome-pages-plugin~=2.9
+mkdocs-git-revision-date-localized-plugin~=1.2
+mkdocs-git-committers-plugin-2~=2.4

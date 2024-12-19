@@ -1,0 +1,102 @@
+site_name: "Projecte DAW1"
+site_url: https://fpmislata-daw1-projecte.github.io/projecte-daw1/
+repo_name: projecte-daw1
+repo_url: https://github.com/fpmislata-daw1-projecte/projecte-daw1
+
+exclude_docs: |
+  _*
+
+theme:
+  name: material
+  icon:
+    logo: fontawesome/solid/people-group
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      primary: teal
+      scheme: default 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: teal
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+
+  features:
+    - announce.dismiss
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - toc.follow
+    - search.share
+    - search.suggest
+
+plugins:
+  - search
+  - alias:
+      use_anchor_titles: true
+  - social:
+      enabled: !ENV [CI, false]
+  - tags
+  - git-revision-date-localized
+  - git-committers:
+      enabled: !ENV [CI, false]
+      repository: fpmislata-daw1-projecte/projecte-daw1
+      branch: main
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - sane_lists
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.blocks.html
+  - pymdownx.blocks.caption
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.fancylists:
+      inject_class: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.saneheaders
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
