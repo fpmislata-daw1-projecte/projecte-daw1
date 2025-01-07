@@ -1,5 +1,5 @@
 ---
-title: Inici
+title: Projecte DAW1
 ---
 # Projecte DAW1
 
