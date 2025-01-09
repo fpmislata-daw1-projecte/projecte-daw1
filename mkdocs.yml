@@ -110,7 +110,7 @@ nav:
       - gestio/formacio_grups.md
       - gestio/scrum.md
       - gestio/gestio_projecte.md
-      - gestio/estrategia_git.md
+      - gestio/control_versions.md
     - Implementació:
       - implementacio/bd.md
       - implementacio/arquitectura.md
