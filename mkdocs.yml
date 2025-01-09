@@ -42,6 +42,7 @@ theme:
     - navigation.footer
     - navigation.indexes
     - navigation.instant
+    - navigation.sections
     - navigation.tabs
     - navigation.top
     - toc.follow
@@ -100,3 +101,21 @@ markdown_extensions:
       custom_checkbox: true
   - toc:
       permalink: true
+
+nav:
+  - Inici: 
+    - index.md
+    - calendari.md
+    - Gestió de projectes:
+      - gestio/formacio_grups.md
+      - gestio/scrum.md
+      - gestio/gestio_projecte.md
+      - gestio/estrategia_git.md
+    - Implementació:
+      - implementacio/bd.md
+      - implementacio/arquitectura.md
+      - implementacio/proves.md
+      - implementacio/interficie_web.md
+      - implementacio/desplegament.md
+  - Avaluació:
+    - avaluacio/index.md
