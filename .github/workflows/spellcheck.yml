@@ -4,11 +4,13 @@ on: # Events que disparen l'automatització
     branches:
       - 'main' # Quan es fa un push a la branca main
   pull_request:
+    types: ['opened', 'edited', 'reopened', 'synchronize', 'ready_for_review']
     branches:
       - '**' # Quan s'obri un pull request a qualsevol branca
 
 jobs: # Llista de tasques a executar
   documents: # Nom de la tasca
+    if: github.event.pull_request.draft == false # Condició per executar la tasca
     runs-on: ubuntu-latest # Sistema operatiu on s'executarà la tasca
     env: # Variables d'entorn
       DICPATH: .hunspell/
