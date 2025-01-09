@@ -2,6 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/</loc>
-         <lastmod>2024-12-19</lastmod>
+         <lastmod>2025-01-09</lastmod>
+    </url>
+    <url>
+         <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/calendari/</loc>
+         <lastmod>2025-01-09</lastmod>
+    </url>
+    <url>
+         <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/gestio/estrategia_git/</loc>
+         <lastmod>2025-01-09</lastmod>
+    </url>
+    <url>
+         <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/gestio/formacio_grups/</loc>
+         <lastmod>2025-01-09</lastmod>
+    </url>
+    <url>
+         <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/gestio/gestio_projecte/</loc>
+         <lastmod>2025-01-09</lastmod>
+    </url>
+    <url>
+         <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/gestio/scrum/</loc>
+         <lastmod>2025-01-09</lastmod>
+    </url>
+    <url>
+         <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/implementacio/arquitectura/</loc>
+         <lastmod>2025-01-09</lastmod>
+    </url>
+    <url>
+         <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/implementacio/bd/</loc>
+         <lastmod>2025-01-09</lastmod>
+    </url>
+    <url>
+         <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/implementacio/desplegament/</loc>
+         <lastmod>2025-01-09</lastmod>
+    </url>
+    <url>
+         <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/implementacio/interficie_web/</loc>
+         <lastmod>2025-01-09</lastmod>
+    </url>
+    <url>
+         <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/implementacio/proves/</loc>
+         <lastmod>2025-01-09</lastmod>
     </url>
 </urlset>
