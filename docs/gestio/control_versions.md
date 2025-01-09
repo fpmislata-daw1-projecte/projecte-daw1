@@ -20,11 +20,11 @@ En aquest projecte utilitzarem les següents ferramentes per al control de versi
 [github]: https://github.com/
 
 
-## Estratègia de ramificació
+## Estratègia de ramificació
 El desenvolupament del projecte es farà seguint una estratègia de ramificació
 que proporcionarà un flux de treball ordenat i estructurat.
 
-Aquesta estratègia es basa en la creació de diferents branques per a diferens propòsits:
+Aquesta estratègia es basa en la creació de branques per a diferents propòsits:
 
 - __Branca principal `main`__: Conté el codi estable que ha segut publicat.
 - __Branca de desenvolupament `develop`__: Conté la versió més actualitzada del codi,
@@ -49,7 +49,7 @@ Podeu consultar el flux de treball complet en els apunts [Estratègies de ramifi
 
 
 ## Pull Requests
-Dins de l'àmbtit de gestió del projectes, :simple-github: GitHub proporciona una eina
+Dins de l'àmbit de gestió del projectes, :simple-github: GitHub proporciona una eina
 anomenada __:material-source-pull: Pull Request__ que permet sol·licitar la integració de canvis d'una branca
 a una altra.
 
