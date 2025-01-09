@@ -46,3 +46,13 @@ Fusió de branques mitjançant `merge --squash`.
 ///
 
 Podeu consultar el flux de treball complet en els apunts [Estratègies de ramificació][estrategies-ramificacio].
+
+
+## Pull Requests
+Dins de l'àmbtit de gestió del projectes, :simple-github: GitHub proporciona una eina
+anomenada __:material-source-pull: Pull Request__ que permet sol·licitar la integració de canvis d'una branca
+a una altra.
+
+Podeu consultar els apunts [Forks i Pull Requests][forks-pull-requests] per a més informació.
+
+[forks-pull-requests]: https://joapuiib.github.io/curs-git/apunts/06_projectes/02_forks/#pull-requests
