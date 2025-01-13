@@ -3,7 +3,7 @@ title: Arquitectura per capes
 icon: material/layers
 ---
 
-# Arquitectura per capes
+# :material-layers: Arquitectura per capes
 La implementació de l'aplicació ha de seguir una __arquitectura per capes__,
 que permeta separar les diferents responsabilitats de l'aplicació i facilite
 la seua evolució i manteniment.
