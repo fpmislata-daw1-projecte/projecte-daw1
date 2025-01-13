@@ -3,7 +3,7 @@ title: Proves del programari
 icon: material/marker-check
 alias: proves
 ---
-# Proves del programari
+# :material-marker-check: Proves del programari
 Les __proves del programari__ són una part essencial de qualsevol projecte
 de desenvolupament de programari. Les proves són necessàries per assegurar
 que l'aplicació funciona correctament i que no es produeixen errors.
