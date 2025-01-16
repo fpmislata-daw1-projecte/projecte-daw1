@@ -1,6 +1,7 @@
 ---
 title: Arquitectura per capes
 icon: material/layers
+alias: arquitectura
 ---
 
 # :material-layers: Arquitectura per capes
