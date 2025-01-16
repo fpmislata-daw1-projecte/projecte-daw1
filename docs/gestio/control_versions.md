@@ -56,3 +56,12 @@ a una altra.
 Podeu consultar els apunts [Forks i Pull Requests][forks-pull-requests] per a més informació.
 
 [forks-pull-requests]: https://joapuiib.github.io/curs-git/apunts/06_projectes/02_forks/#pull-requests
+
+!!! tip
+    És recomanable configurar el repositori per a requerir els següents aspectes:
+
+    - __Pull Request requerida__: No es permetrà fer commits directament a la branca principal ni de desenvolupament,
+        que sols podran integrar canvis mitjançant Pull Requests.
+    - __Història lineal__: No es permetran commits amb història no lineal.
+    - __Integració `merge --squash`__: Deshabilitar els altres mètodes d'integració en les Pull Requests.
+
