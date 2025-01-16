@@ -2,4 +2,4 @@
 title: Calendari
 icon: material/calendar
 ---
-# Calendari
+# :material-calendar: Calendari
