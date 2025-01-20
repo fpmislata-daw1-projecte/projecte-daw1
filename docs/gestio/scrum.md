@@ -71,6 +71,18 @@ Les cerimònies principals de SCRUM són les següents:
     per preparar-les per als següents sprints.
 
 
+## Implantació de SCRUM
+En aquest projecte, s'ha decidit utilitzar SCRUM com a metodologia de
+desenvolupament per aconseguir els objectius del projecte de manera
+eficient i eficaç.
+
+Les figures __Product Owner__ i __Scrum Master__ seran
+rotatives entre els membres de l'equip en cada sprint.
+
+Podeu trobar la temporalització de cada sprint i les
+tasques a realizar al [[calendari|:material-calendar: Calendari]].
+
+
 ## Recursos
 /// html | div.spell-ignore
 - [:simple-youtube: Introducción a Scrum... en menos de 5 minutos | Exceltic](https://www.youtube.com/watch?v=P25JP0u6UKw)
