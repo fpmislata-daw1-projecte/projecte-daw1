@@ -6,6 +6,9 @@ repo_url: https://github.com/fpmislata-daw1-projecte/projecte-daw1
 exclude_docs: |
   _*
 
+extra_css:
+  - assets/styles/styles.css
+
 theme:
   name: material
   icon:
@@ -90,7 +93,19 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.blocks.html
-  - pymdownx.blocks.caption
+  - pymdownx.blocks.caption:
+      auto: true
+      types:
+        - caption
+        - name: attribution
+          classes: attribution spell-ignore
+        - name: figure-caption
+          prefix: 'Figura {}.'
+        - name: shadow-figure-caption
+          prefix: 'Figura {}.'
+          classes: 'shadow'
+        - name: table-caption
+          prefix: 'Taula {}.'
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
