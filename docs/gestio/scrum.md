@@ -80,7 +80,7 @@ Les figures __Product Owner__ i __Scrum Master__ seran
 rotatives entre els membres de l'equip en cada sprint.
 
 Podeu trobar la temporalització de cada sprint i les
-tasques a realizar al [[calendari|:material-calendar: Calendari]].
+tasques a realitzar al [[calendari|:material-calendar: Calendari]].
 
 
 ## Recursos
