@@ -32,7 +32,7 @@ Les capes que s'han de definir són les següents:
         de l'aplicació.
     - __DAOs__: Classes que s'encarreguen de realitzar les consultes a la base de
         dades.
-    - __RowMappers__: Classes que s'encarreguen de mapejar les files de la base
+    - __RowMappers__: Classes que s'encarreguen de mapar les files de la base
         a entitats de domini.
 
 ```mermaid
