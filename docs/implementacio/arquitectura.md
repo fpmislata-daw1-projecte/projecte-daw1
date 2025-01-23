@@ -15,6 +15,8 @@ Les capes que s'han de definir són les següents:
     aplicació web, una aplicació mòbil, etc. Aquesta capa és la que interactua
     amb l'usuari final.
 
+    _En aquest projecte aquesta capa s'implementarà amb 
+
 - __Controladors__: Conté la lògica que s'encarrega de gestionar les peticions
     de l'usuari i de retornar les respostes adequades.
 
@@ -28,6 +30,13 @@ Les capes que s'han de definir són les següents:
 
 - __Persistència__: Conté la lògica per gestionar l'accés a les dades de l'aplicació.
 
+    - __Repositoris__: Classes que s'encarreguen de gestionar l'accés a les dades
+        de l'aplicació.
+    - __DAOs__: Classes que s'encarreguen de realitzar les consultes a la base de
+        dades.
+    - __RowMappers__: Classes que s'encarreguen de mapejar les files de la base
+        a entitats de domini.
+
 ```mermaid
 graph TD
     classDef app fill:#ffd,stroke:#aa3,stroke-width:1px;
@@ -35,7 +44,8 @@ graph TD
     controladors["__Controladors__"]:::app
     domini["__Domini__
     _Entitats i Serveis_"]:::app
-    persistencia["__Persistència__"]:::app
+    persistencia["__Persistència__
+    _Repositoris, DAOs i RowMappers_"]:::app
     base_dades[("__Base de dades__")]
     presentacio --> controladors
     controladors --> domini
