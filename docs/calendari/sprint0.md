@@ -22,10 +22,11 @@ title: Sprint 0
 |                            +------------------------------------------------------------------------------------------+
 |                            | Pàgina principal (_landing page_) estàtica.                                              |
 +----------------------------+------------------------------------------------------------------------------------------+
-| Programació                | Arquitectura per capes.                                                                  |
+| Programació                | [:material-layers: Arquitectura per capes][arquitectura]                                 |
 +----------------------------+------------------------------------------------------------------------------------------+
 | Sistemes informàtics       | Estructura de l'aplicació web.                                                           |
 +----------------------------+------------------------------------------------------------------------------------------+
 
+[arquitectura]: ../implementacio/arquitectura.md
 [gestio_projecte]: ../gestio/gestio_projecte.md
 [scrum]: ../gestio/scrum.md
