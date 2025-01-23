@@ -89,6 +89,7 @@ markdown_extensions:
   - def_list
   - footnotes
   - md_in_html
+  - markdown_grid_tables
   - sane_lists
   - pymdownx.arithmatex:
       generic: true
@@ -137,7 +138,6 @@ markdown_extensions:
 nav:
   - Inici: 
     - index.md
-    - calendari.md
     - Gestió de projectes:
       - gestio/formacio_grups.md
       - gestio/scrum.md
@@ -149,5 +149,13 @@ nav:
       - implementacio/proves.md
       - implementacio/interficie_web.md
       - implementacio/desplegament.md
+  - Calendari:
+    - calendari/index.md
+    - calendari/sprint0.md
+    - calendari/sprint1.md
+    - calendari/sprint2.md
+    - calendari/sprint3.md
+    - calendari/sprint4.md
+    - calendari/sprint5.md
   - Avaluació:
     - avaluacio/index.md
