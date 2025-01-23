@@ -2,67 +2,103 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/</loc>
-        <lastmod>2025-01-20</lastmod>
+        <lastmod>2025-01-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ca" href="https://fpmislata-daw1-projecte.github.io/projecte-daw1/"/>
     </url>
     <url>
         <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/calendari/</loc>
-        <lastmod>2025-01-20</lastmod>
+        <lastmod>2025-01-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ca" href="https://fpmislata-daw1-projecte.github.io/projecte-daw1/calendari/"/>
     </url>
     <url>
+        <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/calendari/sprint0/</loc>
+        <lastmod>2025-01-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://fpmislata-daw1-projecte.github.io/projecte-daw1/calendari/sprint0/"/>
+    </url>
+    <url>
+        <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/calendari/sprint1/</loc>
+        <lastmod>2025-01-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://fpmislata-daw1-projecte.github.io/projecte-daw1/calendari/sprint1/"/>
+    </url>
+    <url>
+        <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/calendari/sprint2/</loc>
+        <lastmod>2025-01-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://fpmislata-daw1-projecte.github.io/projecte-daw1/calendari/sprint2/"/>
+    </url>
+    <url>
+        <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/calendari/sprint3/</loc>
+        <lastmod>2025-01-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://fpmislata-daw1-projecte.github.io/projecte-daw1/calendari/sprint3/"/>
+    </url>
+    <url>
+        <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/calendari/sprint4/</loc>
+        <lastmod>2025-01-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://fpmislata-daw1-projecte.github.io/projecte-daw1/calendari/sprint4/"/>
+    </url>
+    <url>
+        <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/calendari/sprint5/</loc>
+        <lastmod>2025-01-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://fpmislata-daw1-projecte.github.io/projecte-daw1/calendari/sprint5/"/>
+    </url>
+    <url>
         <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/gestio/control_versions/</loc>
-        <lastmod>2025-01-20</lastmod>
+        <lastmod>2025-01-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ca" href="https://fpmislata-daw1-projecte.github.io/projecte-daw1/gestio/control_versions/"/>
     </url>
     <url>
         <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/gestio/formacio_grups/</loc>
-        <lastmod>2025-01-20</lastmod>
+        <lastmod>2025-01-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ca" href="https://fpmislata-daw1-projecte.github.io/projecte-daw1/gestio/formacio_grups/"/>
     </url>
     <url>
         <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/gestio/gestio_projecte/</loc>
-        <lastmod>2025-01-20</lastmod>
+        <lastmod>2025-01-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ca" href="https://fpmislata-daw1-projecte.github.io/projecte-daw1/gestio/gestio_projecte/"/>
     </url>
     <url>
         <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/gestio/scrum/</loc>
-        <lastmod>2025-01-20</lastmod>
+        <lastmod>2025-01-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ca" href="https://fpmislata-daw1-projecte.github.io/projecte-daw1/gestio/scrum/"/>
     </url>
     <url>
         <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/implementacio/arquitectura/</loc>
-        <lastmod>2025-01-20</lastmod>
+        <lastmod>2025-01-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ca" href="https://fpmislata-daw1-projecte.github.io/projecte-daw1/implementacio/arquitectura/"/>
     </url>
     <url>
         <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/implementacio/bd/</loc>
-        <lastmod>2025-01-20</lastmod>
+        <lastmod>2025-01-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ca" href="https://fpmislata-daw1-projecte.github.io/projecte-daw1/implementacio/bd/"/>
     </url>
     <url>
         <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/implementacio/desplegament/</loc>
-        <lastmod>2025-01-20</lastmod>
+        <lastmod>2025-01-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ca" href="https://fpmislata-daw1-projecte.github.io/projecte-daw1/implementacio/desplegament/"/>
     </url>
     <url>
         <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/implementacio/interficie_web/</loc>
-        <lastmod>2025-01-20</lastmod>
+        <lastmod>2025-01-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ca" href="https://fpmislata-daw1-projecte.github.io/projecte-daw1/implementacio/interficie_web/"/>
     </url>
     <url>
         <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/implementacio/proves/</loc>
-        <lastmod>2025-01-20</lastmod>
+        <lastmod>2025-01-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ca" href="https://fpmislata-daw1-projecte.github.io/projecte-daw1/implementacio/proves/"/>
     </url>
