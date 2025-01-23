@@ -85,10 +85,6 @@ source venv/bin/activate
 COMMAND="serve"
 if [ $BUILD -eq 1 ]; then
     COMMAND="build"
-    export CI=true
-    if [[ $(uname -r) == *"microsoft"* ]]; then
-      export CI=false
-    fi
 fi
 
 mkdocs $COMMAND $ARGS
