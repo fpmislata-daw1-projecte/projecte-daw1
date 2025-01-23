@@ -15,8 +15,6 @@ Les capes que s'han de definir són les següents:
     aplicació web, una aplicació mòbil, etc. Aquesta capa és la que interactua
     amb l'usuari final.
 
-    _En aquest projecte aquesta capa s'implementarà amb 
-
 - __Controladors__: Conté la lògica que s'encarrega de gestionar les peticions
     de l'usuari i de retornar les respostes adequades.
 
