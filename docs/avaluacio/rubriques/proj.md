@@ -1,6 +1,6 @@
 ---
 title: Projecte intermodular
-alias: rubriques-prg
+alias: rubriques-proj
 ---
 # Projecte intermodular
 
