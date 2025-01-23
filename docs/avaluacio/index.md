@@ -25,7 +25,7 @@ L'avaluació del projecte es realitzarà utilitzant els següents instruments d'
 [contracte]: ../gestio/formacio_grups.md#contracte
 
 ## Qualificació
-Cada mòdul professional decidirà com incoporar la qualificació
+Cada mòdul professional decidirà com incorporar la qualificació
 dels diferents instruments d'avaluació a la qualificació.
 
 Aquesta informació està disponible a la __Programació didàctica__
