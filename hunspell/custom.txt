@@ -2,7 +2,10 @@
 CIPFP
 d'
 DAW
+DDL
 JUnit
 MkDocs
 mockito
+mockup
 ThymeLeaf
+UML
