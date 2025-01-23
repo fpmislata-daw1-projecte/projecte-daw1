@@ -101,6 +101,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#arquitectura-per-capes" class="md-skip">
+          Salta el contingut
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -670,6 +675,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -1064,6 +1071,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -1081,9 +1090,60 @@
   
 
 
-  <h1>Arquitectura per capes</h1>
-
-
+<h1 id="arquitectura-per-capes"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12 16 7.36-5.73L21 9l-9-7-9 7 1.63 1.27M12 18.54l-7.38-5.73L3 14.07l9 7 9-7-1.63-1.27z"/></svg></span> Arquitectura per capes<a class="headerlink" href="#arquitectura-per-capes" title="Permanent link">&para;</a></h1>
+<p>La implementació de l'aplicació ha de seguir una <strong>arquitectura per capes</strong>,
+que permeta separar les diferents responsabilitats de l'aplicació i facilite
+la seua evolució i manteniment.</p>
+<p>Les capes que s'han de definir són les següents:</p>
+<ul>
+<li>
+<p><strong>Presentació</strong>: Conté la interfície d'usuari de l'aplicació, que pot ser una
+    aplicació web, una aplicació mòbil, etc. Aquesta capa és la que interactua
+    amb l'usuari final.</p>
+</li>
+<li>
+<p><strong>Controladors</strong>: Conté la lògica que s'encarrega de gestionar les peticions
+    de l'usuari i de retornar les respostes adequades.</p>
+</li>
+<li>
+<p><strong>Domini</strong>: Conté la lògica de negoci de l'aplicació, que s'encarrega de
+    coordinar les diferents operacions que s'han de realitzar.</p>
+<p>Aquesta capa conté:</p>
+<ul>
+<li><strong>Entitats</strong>: Classes que representen els objectes de negoci de l'aplicació.</li>
+<li><strong>Serveis</strong>: Classes que contenen la lògica de negoci de l'aplicació.</li>
+</ul>
+</li>
+<li>
+<p><strong>Persistència</strong>: Conté la lògica per gestionar l'accés a les dades de l'aplicació.</p>
+<ul>
+<li><strong>Repositoris</strong>: Classes que s'encarreguen de gestionar l'accés a les dades
+    de l'aplicació.</li>
+<li><strong>DAOs</strong>: Classes que s'encarreguen de realitzar les consultes a la base de
+    dades.</li>
+<li><strong>RowMappers</strong>: Classes que s'encarreguen de mapar les files de la base
+    a entitats de domini.</li>
+</ul>
+</li>
+</ul>
+<figure id="__figure-caption_1">
+<pre class="mermaid"><code>graph TD
+    classDef app fill:#ffd,stroke:#aa3,stroke-width:1px;
+    presentacio["__Presentació__"]
+    controladors["__Controladors__"]:::app
+    domini["__Domini__
+    _Entitats i Serveis_"]:::app
+    persistencia["__Persistència__
+    _Repositoris, DAOs i RowMappers_"]:::app
+    base_dades[("__Base de dades__")]
+    presentacio --&gt; controladors
+    controladors --&gt; domini
+    domini --&gt; persistencia
+    persistencia --&gt; base_dades</code></pre>
+<figcaption>
+<p><span class="caption-prefix">Figura 1.</span> Arquitectura per capes de l'aplicació.</p>
+</figcaption>
+</figure>
 
 
 
@@ -1104,7 +1164,7 @@
     <span class="md-icon" title="Darrera actualització">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">16 de gener del 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">23 de gener del 2025</span>
   </span>
 
     
