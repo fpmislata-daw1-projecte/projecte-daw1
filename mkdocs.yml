@@ -159,3 +159,9 @@ nav:
     - calendari/sprint5.md
   - Avaluació:
     - avaluacio/index.md
+    - Rúbriques específiques:
+      - avaluacio/rubriques/bd.md
+      - avaluacio/rubriques/ed.md
+      - avaluacio/rubriques/llmq.md
+      - avaluacio/rubriques/prg.md
+      - avaluacio/rubriques/si.md
