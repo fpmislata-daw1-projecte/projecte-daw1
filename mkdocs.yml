@@ -138,10 +138,10 @@ markdown_extensions:
 nav:
   - Inici: 
     - index.md
-    - Gestió de projectes:
+    - Gestió del projecte:
       - gestio/formacio_grups.md
       - gestio/scrum.md
-      - gestio/gestio_projecte.md
+      - gestio/eines.md
       - gestio/control_versions.md
     - Implementació:
       - implementacio/bd.md
