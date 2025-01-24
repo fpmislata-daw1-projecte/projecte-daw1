@@ -141,7 +141,7 @@ nav:
     - Gestió de projectes:
       - gestio/formacio_grups.md
       - gestio/scrum.md
-      - gestio/gestio_projecte.md
+      - gestio/eines.md
       - gestio/control_versions.md
     - Implementació:
       - implementacio/bd.md
