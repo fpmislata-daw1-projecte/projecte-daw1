@@ -8,7 +8,7 @@ alias: eines
 Aquest projecte es durà a terme utilitzant les __eines de gestió__
 que ens proporciona __:simple-github: GitHub__.
 
-- __[:octicons-table-16: Projectes de GitHub][projects]__: S'utilitzarà un tauler Kanban per
+- __[:octicons-table-16: Projectes][projects]__: S'utilitzarà un tauler Kanban per
     a gestionar les tasques del projecte amb les següents columnes:
 
     - __General Backlog__: Tasques pendents de realitzar.
