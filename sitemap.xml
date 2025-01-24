@@ -97,16 +97,16 @@
         <xhtml:link rel="alternate" hreflang="ca" href="https://fpmislata-daw1-projecte.github.io/projecte-daw1/gestio/control_versions/"/>
     </url>
     <url>
+        <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/gestio/eines/</loc>
+        <lastmod>2025-01-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://fpmislata-daw1-projecte.github.io/projecte-daw1/gestio/eines/"/>
+    </url>
+    <url>
         <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/gestio/formacio_grups/</loc>
         <lastmod>2025-01-24</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ca" href="https://fpmislata-daw1-projecte.github.io/projecte-daw1/gestio/formacio_grups/"/>
-    </url>
-    <url>
-        <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/gestio/gestio_projecte/</loc>
-        <lastmod>2025-01-24</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ca" href="https://fpmislata-daw1-projecte.github.io/projecte-daw1/gestio/gestio_projecte/"/>
     </url>
     <url>
         <loc>https://fpmislata-daw1-projecte.github.io/projecte-daw1/gestio/scrum/</loc>
