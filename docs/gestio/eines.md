@@ -8,7 +8,7 @@ alias: eines
 Aquest projecte es durà a terme utilitzant les __eines de gestió__
 que ens proporciona __:simple-github: GitHub__.
 
-- __[:octicons-table-16: GitHub Projects][projects]__: S'utilitzarà un tauler Kanban per
+- __[:octicons-table-16: Projectes de GitHub][projects]__: S'utilitzarà un tauler Kanban per
     a gestionar les tasques del projecte amb les següents columnes:
 
     - __General Backlog__: Tasques pendents de realitzar.
@@ -16,7 +16,7 @@ que ens proporciona __:simple-github: GitHub__.
     - __In Progress__: Tasques en curs.
     - __Done Sprint `N`__: Tasques completades en la iteració `N`.
 
-- __[:octicons-milestone-16: Milestones][milestones]__: S'utilitzaran per a agrupar les tasques
+- __[:octicons-milestone-16: Fites (_Milestones_)][milestones]__: S'utilitzaran per a agrupar les tasques
     en iteracions. Cada milestone tindrà una data de finalització.
 
     Cal especificar els següents aspectes:
@@ -24,7 +24,7 @@ que ens proporciona __:simple-github: GitHub__.
     - __Títol i descripció.__
     - __Data de finalització.__
 
-- __[:octicons-issue-opened-16: Issues][issues]__: Registrar les tasques i problemes del projecte.
+- __[:octicons-issue-opened-16: Incidències (_Issues_)][issues]__: Registrar les tasques i problemes del projecte.
 
     Cal especificar els següents aspectes:
 
@@ -32,7 +32,7 @@ que ens proporciona __:simple-github: GitHub__.
     - __Assignació a un membre del grup.__
     - __Etiquetes__ per a identificar el tipus de tasca.
 
-- __[:material-tray-arrow-up: Llançaments][releases]__: S'utilitzaran per a marcar les versions
+- __[:material-tray-arrow-up: Llançaments (_Releases_)][releases]__: S'utilitzaran per a marcar les versions
     del projecte.
 
     Cal especificar els següents aspectes:
