@@ -19,6 +19,8 @@ title: Sprint 1
 | Llenguatges de marques     | [:simple-thymeleaf: ThymeLeaf][thymeleaf]:                               |
 |                            | Sistema de plantilles                                                    |
 +----------------------------+--------------------------------------------------------------------------+
+| Programació                |                                                                          |
++----------------------------+--------------------------------------------------------------------------+
 | Sistemes informàtics       | Preparació de l'entorn de desenvolupament                                |
 |                            | amb [:simple-docker: Docker][docker].                                    |
 +----------------------------+--------------------------------------------------------------------------+
