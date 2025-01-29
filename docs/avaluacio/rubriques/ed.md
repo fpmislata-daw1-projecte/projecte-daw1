@@ -32,6 +32,21 @@ en els següents documents:
 ///
 
 ## Estratègies de ramificació
+/// rubric
+--8<-- "docs/avaluacio/rubriques/ed/_estrategies.yml"
+///
+
 ## Proves unitàries amb objectes simulats
+/// rubric
+--8<-- "docs/avaluacio/rubriques/ed/_unit.yml"
+///
+
 ## Proves d'integració amb objectes simulats
+/// rubric
+--8<-- "docs/avaluacio/rubriques/ed/_integracio.yml"
+///
+
 ## Automatització
+/// rubric
+--8<-- "docs/avaluacio/rubriques/ed/_automatitzacio.yml"
+///
