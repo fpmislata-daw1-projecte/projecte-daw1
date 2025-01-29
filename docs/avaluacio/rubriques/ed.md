@@ -27,6 +27,23 @@ en els següents documents:
 [annex1]: https://joapuiib.github.io/daw-ed/programacio/daw1/a1_avaluacio/
 
 ## Diagrama UML de casos d'ús
+/// rubric
+levels:
+    - Expert
+    - Avançat
+    - Acceptable
+    - Insuficient
+
+criteria:
+    - title: Actors
+      description: Identificació dels actors implicats en el sistema.
+      levels:
+          - Identifica tots els actors implicats en el sistema.
+          - Identifica la majoria dels actors implicats en el sistema.
+          - Identifica alguns actors implicats en el sistema.
+          - No identifica els actors implicats en el sistema.
+///
+
 ## Estratègies de ramificació
 ## Proves unitàries amb objectes simulats
 ## Proves d'integració amb objectes simulats
