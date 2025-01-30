@@ -3,6 +3,7 @@ title: Entorns de desenvolupament
 # icon: fontawesome/solid/laptop-code
 alias: rubriques-ed
 ---
+*[DAO]: Data Access Object
 *[CI]: Continuous Integration
 
 # Entorns de desenvolupament

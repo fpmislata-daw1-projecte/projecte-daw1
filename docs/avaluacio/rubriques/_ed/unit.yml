@@ -5,55 +5,59 @@ levels:
   - Insuficient
 
 criteria:
-  - title: Actors
-    description: Identificació dels actors implicats en el sistema.
+  - title: Proves unitàries de les entitats
     score: 20 punts
     levels:
-      - Tots els actors involucrats en el sistema s'identifiquen clarament
-        i s'especifiquen les seves responsabilitats i interaccions amb el sistema. 
-      - La majoria dels actors estan identificats i s'especifiquen
-        les seves funcions, però amb algunes omissions o mancances en la descripció. 
-      - Alguns actors podrien faltar o la seva descripció és confusa o incompleta,
-        dificultant la comprensió del sistema. 
-      - No s'han identificat tots els actors
-        o la seua descripció és molt superficial o totalment inexistent. 
+      - Proves completes que verifiquen els mètodes de les entitats, incloent la seva validació,
+        comportament i relacions amb altres entitats.
+      - Proves adequades de les entitats, però podrien faltar alguns casos de prova per a mètodes
+        específics o escenaris excepcionals.
+      - Proves limitades de les entitats, només verificant els mètodes més bàsics sense abordar
+        totes les seves funcionalitats o relacions.
+      - Falta de proves de les entitats o proves insuficients que no garanteixen la integritat dels seus mètodes.
 
-  - title: Casos d'ús
-    description: Detall dels casos d'ús del sistema.
-    score: 30 punts
-    levels:
-      - Tots els casos d'ús importants s'identifiquen i descriuen amb detall,
-        incloent els seus actors associats, objectius i fluxos principals.
-      - La majoria dels casos d'ús estan identificats i descriuen amb cert detall,
-        però hi pot haver alguna manca d'informació o claredat en la descripció. 
-      - Alguns casos d'ús podrien estar omesos o la seva descripció és massa breu
-        o poc detallada, dificultant la comprensió del sistema. 
-      - Hi ha una manca d'identificació o descripció dels casos d'ús,
-        o la descripció és tan escassa que no aporta informació útil sobre el sistema.
-
-  - title: Relacions entre els Actors i els Casos d'Ús
+  - title: Proves unitàries dels serveis
     score: 20 punts
     levels:
-      - Les interaccions entre els actors i els casos d'ús es mostren clarament
-        i de manera precisa, incloent els casos d'ús estesos o inclosos si és
-        necessari.
-      - Les relacions entre els actors i els casos d'ús són adequades,
-        però podrien faltar alguns detalls o aclariments en els casos d'ús estesos o inclosos. 
-      - Hi ha algunes relacions entre actors i casos d'ús, però són poc clares o incompletes,
-        i potser hi ha omissions en els casos d'ús estesos o inclosos. 
-      - Les relacions entre actors i casos d'ús són confuses o absents,
-        dificultant la comprensió de com interactuen els diferents elements
-        del sistema.
+      - Cobertura completa de totes les funcionalitats dels serveis, incloent totes les operacions
+        dels mètodes i verificant-ne el comportament en diferents escenaris.
+      - Proves adients dels serveis, però pot haver-hi alguns buits en la cobertura
+        o en la verificació de certs escenaris o casos límit.
+      - Proves limitades dels serveis, només cobrint les funcionalitats més bàsiques
+        sense abordar casos complexos o excepcionals.
+      - Falta de proves dels serveis o proves insuficients que no verifiquen
+        el comportament esperat dels mètodes.
 
-  - title: Cohesió i Coherència del Diagrama
-    score: 30 punts
+  - title: Proves unitàries dels repositoris
+    score: 20 punts
     levels:
-      - El diagrama de casos d'ús està ben estructurat i organitzat,
-        amb una distribució lògica dels casos d'ús i una clara cohesió temàtica.        
-      - El diagrama de casos d'ús té una estructura adequada, però pot haver-hi
-        algunes inconsistències o desordres en la distribució dels casos d'ús.
-      - L'estructura del diagrama de casos d'ús és confusa o desorganitzada,
-        amb manca de cohesió entre els casos d'ús i dificultats per comprendre el flux del sistema.
-      - La manca de cohesió i coherència en el diagrama de casos d'ús fa que
-        siga molt difícil de seguir o comprendre, amb informació dispersa
-        o contradictòria.
+      - Proves exhaustives dels repositoris que verifiquen l'accés a la base de dades, la recuperació
+        de dades i la gestió d'errors en diferents escenaris.
+      - Proves adequades dels repositoris, però pot haver-hi alguns escenaris que no es verifiquen
+        o casos que no es consideren en les proves.
+      - Proves limitades dels repositoris, només cobrint les operacions bàsiques sense abordar casos
+        de fallada o altres escenaris complexos.
+      - Falta de proves dels repositoris o proves que no garanteixen la fiabilitat de l'accés a la base de dades.
+
+  - title: Proves unitàries dels `RowMapper`
+    score: 20 punts
+    levels:
+      - Proves completes que verifiquen la conversió de les files de la base de dades
+        a objectes del domini, incloent totes les propietats i relacions.
+      - Proves adients, però podrien faltar alguns casos de prova per a propietats
+        específiques o relacions complexes.
+      - Proves limitades només verificant la conversió de les propietats més bàsiques
+        sense abordar totes les relacions o gestió d'errors.
+      - Falta de proves o proves insuficients que no asseguren la correcta conversió
+        de les dades de la base de dades als objectes del domini.
+
+  - title: Proves unitàries dels DAO
+    score: 20 punts
+    levels:
+      - Proves completes que verifiquen l'accés a la base de dades mitjançant els objectes d'accés a dades (DAO),
+        incloent operacions de lectura, escriptura i eliminació.
+      - Proves adequades dels DAO, però pot haver-hi alguns escenaris o operacions que no es verifiquen
+        completament en les proves.
+      - Proves limitades dels DAO, només cobrint les operacions bàsiques sense abordar totes les funcionalitats
+        o casos de fallada.
+      - Falta de proves dels DAO o proves insuficients que no asseguren la correcta interacció amb la base de dades.
