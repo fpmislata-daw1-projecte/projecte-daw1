@@ -28,25 +28,25 @@ en els següents documents:
 
 ## Diagrama UML de casos d'ús
 /// rubric
---8<-- "docs/avaluacio/rubriques/ed/_casos_us.yml"
+--8<-- "docs/avaluacio/rubriques/_ed/casos_us.yml"
 ///
 
 ## Estratègies de ramificació
 /// rubric
---8<-- "docs/avaluacio/rubriques/ed/_estrategies.yml"
+--8<-- "docs/avaluacio/rubriques/_ed/estrategies.yml"
 ///
 
 ## Proves unitàries amb objectes simulats
 /// rubric
---8<-- "docs/avaluacio/rubriques/ed/_unit.yml"
+--8<-- "docs/avaluacio/rubriques/_ed/unit.yml"
 ///
 
 ## Proves d'integració amb objectes simulats
 /// rubric
---8<-- "docs/avaluacio/rubriques/ed/_integracio.yml"
+--8<-- "docs/avaluacio/rubriques/_ed/integracio.yml"
 ///
 
 ## Automatització
 /// rubric
---8<-- "docs/avaluacio/rubriques/ed/_automatitzacio.yml"
+--8<-- "docs/avaluacio/rubriques/_ed/automatitzacio.yml"
 ///
