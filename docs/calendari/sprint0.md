@@ -14,7 +14,7 @@ title: Sprint 0
 +----------------------------+------------------------------------------------------------------------------------------+
 | Entorns de desenvolupament | [:octicons-iterations-16: SCRUM][scrum]                                                  |
 |                            +------------------------------------------------------------------------------------------+
-|                            | [:fontawesome-solid-chart-column: Gestió del projecte][gestio_projecte]                  |
+|                            | [:fontawesome-solid-chart-column: Eines de gestió][eines]                  |
 |                            +------------------------------------------------------------------------------------------+
 |                            | Diagrama UML de casos d'ús.                                                              |
 +----------------------------+------------------------------------------------------------------------------------------+
@@ -28,5 +28,5 @@ title: Sprint 0
 +----------------------------+------------------------------------------------------------------------------------------+
 
 [arquitectura]: ../implementacio/arquitectura.md
-[gestio_projecte]: ../gestio/gestio_projecte.md
+[eines]: ../gestio/eines.md
 [scrum]: ../gestio/scrum.md
