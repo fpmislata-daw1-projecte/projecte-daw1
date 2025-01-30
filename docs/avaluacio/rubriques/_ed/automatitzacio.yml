@@ -1,0 +1,31 @@
+levels:
+  - Excel·lent
+  - Acceptable
+  - Insuficient
+
+criteria:
+  - title: Execució de proves automatitzades
+    score: 40 punts
+    levels:
+      - S'han automatitzat l'execució de totes les proves unitàries i d'integració
+        i s'executen en cada integració de codi.
+      - Hi ha errors en l'execució de les proves automatitzades o no s'executen
+        en cada integració de codi.
+      - No s'han automatitzat l'execució de les proves unitàries i d'integració.
+
+  - title: Comprovació d'estils de codi
+    score: 30 punts
+    levels:
+      - S'ha automatitzat correctament la comprovació de l'estil de codi
+        i s'aplica en la integració de les branques de funcionalitat.
+      - Hi ha errors en la comprovació de l'estil de codi o no s'aplica
+        en la integració de les branques de funcionalitat.
+      - No s'ha automatitzat la comprovació de l'estil de codi.
+
+  - title: Empaquetament automàtic
+    score: 30 punts
+    levels:
+      - S'ha automatitzat l'empaquetament de l'aplicació en un artefacte
+        executable o desplegable.
+      - Hi ha errors en l'empaquetament automàtic o no s'ha automatitzat.
+      - No s'ha automatitzat l'empaquetament de l'aplicació.

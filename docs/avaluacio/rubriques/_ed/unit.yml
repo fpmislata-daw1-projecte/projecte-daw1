@@ -1,0 +1,63 @@
+levels:
+  - Excel·lent
+  - Avançat
+  - Acceptable
+  - Insuficient
+
+criteria:
+  - title: Proves unitàries de les entitats
+    score: 20 punts
+    levels:
+      - Proves completes que verifiquen els mètodes de les entitats, incloent la seva validació,
+        comportament i relacions amb altres entitats.
+      - Proves adequades de les entitats, però podrien faltar alguns casos de prova per a mètodes
+        específics o escenaris excepcionals.
+      - Proves limitades de les entitats, només verificant els mètodes més bàsics sense abordar
+        totes les seves funcionalitats o relacions.
+      - Falta de proves de les entitats o proves insuficients que no garanteixen la integritat dels seus mètodes.
+
+  - title: Proves unitàries dels serveis
+    score: 20 punts
+    levels:
+      - Cobertura completa de totes les funcionalitats dels serveis, incloent totes les operacions
+        dels mètodes i verificant-ne el comportament en diferents escenaris.
+      - Proves adients dels serveis, però pot haver-hi alguns buits en la cobertura
+        o en la verificació de certs escenaris o casos límit.
+      - Proves limitades dels serveis, només cobrint les funcionalitats més bàsiques
+        sense abordar casos complexos o excepcionals.
+      - Falta de proves dels serveis o proves insuficients que no verifiquen
+        el comportament esperat dels mètodes.
+
+  - title: Proves unitàries dels repositoris
+    score: 20 punts
+    levels:
+      - Proves exhaustives dels repositoris que verifiquen l'accés a la base de dades, la recuperació
+        de dades i la gestió d'errors en diferents escenaris.
+      - Proves adequades dels repositoris, però pot haver-hi alguns escenaris que no es verifiquen
+        o casos que no es consideren en les proves.
+      - Proves limitades dels repositoris, només cobrint les operacions bàsiques sense abordar casos
+        de fallada o altres escenaris complexos.
+      - Falta de proves dels repositoris o proves que no garanteixen la fiabilitat de l'accés a la base de dades.
+
+  - title: Proves unitàries dels `RowMapper`
+    score: 20 punts
+    levels:
+      - Proves completes que verifiquen la conversió de les files de la base de dades
+        a objectes del domini, incloent totes les propietats i relacions.
+      - Proves adients, però podrien faltar alguns casos de prova per a propietats
+        específiques o relacions complexes.
+      - Proves limitades només verificant la conversió de les propietats més bàsiques
+        sense abordar totes les relacions o gestió d'errors.
+      - Falta de proves o proves insuficients que no asseguren la correcta conversió
+        de les dades de la base de dades als objectes del domini.
+
+  - title: Proves unitàries dels DAO
+    score: 20 punts
+    levels:
+      - Proves completes que verifiquen l'accés a la base de dades mitjançant els objectes d'accés a dades (DAO),
+        incloent operacions de lectura, escriptura i eliminació.
+      - Proves adequades dels DAO, però pot haver-hi alguns escenaris o operacions que no es verifiquen
+        completament en les proves.
+      - Proves limitades dels DAO, només cobrint les operacions bàsiques sense abordar totes les funcionalitats
+        o casos de fallada.
+      - Falta de proves dels DAO o proves insuficients que no asseguren la correcta interacció amb la base de dades.

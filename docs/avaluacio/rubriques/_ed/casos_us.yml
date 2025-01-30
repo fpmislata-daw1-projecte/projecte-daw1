@@ -1,0 +1,45 @@
+levels:
+  - Excel·lent
+  - Avançat
+  - Acceptable
+  - Insuficient
+
+criteria:
+  - title: Actors
+    description: Identificació dels actors implicats en el sistema.
+    score: 30 punts
+    levels:
+      - Tots els actors involucrats en el sistema s'identifiquen clarament
+        i s'especifiquen correctament interaccions amb el sistema. 
+      - La majoria dels actors i interaccions estan identificades,
+        però amb algunes omissions o mancances.
+      - Alguns actors podrien faltar o la seva descripció és confusa o incompleta,
+        dificultant la comprensió del sistema. 
+      - No s'han identificat els actors o la seua descripció
+        és molt superficial o totalment inexistent. 
+
+  - title: Casos d'ús
+    description: Detall dels casos d'ús del sistema.
+    score: 30 punts
+    levels:
+      - S'han especificat els casos d'ús correctament,
+        amb una descripció detallada i precisa.
+        incloent els seus actors associats, objectius i fluxos principals.
+      - La majoria dels casos d'ús estan identificats i descriuen amb cert detall,
+        però pot haver-hi algunes mancances.
+      - No s'han identificat tots els casos d'ús o la seua descripció
+        és massa superficial
+      - Hi ha una manca d'identificació o descripció dels casos d'ús,
+        o la descripció és tan escassa que no aporta informació útil sobre el sistema.
+
+  - title: Relacions entre Casos d'Ús
+    score: 40 punts
+    levels:
+      - Les interaccions entre els casos d'ús es mostren clarament
+        i de manera precisa.
+      - Les relacions entre els actors i els casos d'ús són adequades,
+        però podrien faltar alguns detalls o aclariments en els tipus de relacions.
+      - Hi ha algunes relacions entre casos d'ús, però són poc clares o incompletes.
+      - Les relacions entre actors i casos d'ús són confuses o absents,
+        dificultant la comprensió de com interactuen els diferents elements
+        del sistema.

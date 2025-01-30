@@ -1,0 +1,20 @@
+levels:
+  - Excel·lent
+  - Avançat
+  - Acceptable
+  - Insuficient
+
+criteria:
+  - title: Proves d'integració completa
+    description: Des de la capa de Servei fins als DAO.
+    score: 100 punts
+    levels:
+      - Cobertura completa de totes les funcionalitats dels serveis,
+        incloent totes les operacions dels mètodes i verificant-ne el
+        comportament en diferents escenaris. 
+      - Proves adients dels serveis, però pot haver-hi alguns buits
+        en la cobertura o en la verificació de certs escenaris o casos límit. 
+      - Proves limitades dels serveis, només cobrint les funcionalitats més bàsiques
+        sense abordar casos complexos o excepcionals. 
+      - Falta de proves dels serveis o proves insuficients que no verifiquen
+        el comportament esperat dels mètodes. 
