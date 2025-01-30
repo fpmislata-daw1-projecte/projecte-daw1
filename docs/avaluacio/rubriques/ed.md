@@ -13,9 +13,9 @@ on es treballaran els següents aspectes:
 - [:material-marker-check: Proves del programari][proves]
 - [:fontawesome-solid-gears: Automatització][automatitzacio]
 
-[control-versions]: ../gestio/control_versions.md
-[proves]: ../implementacio/proves.md
-[automatitzacio]: ../implementacio/automatitzacio.md
+[control-versions]: ../../gestio/control_versions.md
+[proves]: ../../implementacio/proves.md
+[automatitzacio]: ../../implementacio/automatitzacio.md
 
 Podeu consultar com s'integra la qualificació de cada rúbrica a la qualificació del mòdul
 en els següents documents:
