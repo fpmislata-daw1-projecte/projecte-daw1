@@ -81,6 +81,8 @@ plugins:
       enabled: !ENV [CI, false]
       repository: fpmislata-daw1-projecte/projecte-daw1
       branch: main
+      exclude_committers:
+        - web-flow
 
 markdown_extensions:
   - abbr
