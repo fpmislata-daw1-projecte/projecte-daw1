@@ -5,55 +5,55 @@ levels:
   - Insuficient
 
 criteria:
-  - title: Actors
-    description: Identificació dels actors implicats en el sistema.
+  - title: Nomenclatura
+    description: Nomenclatura dels commits i branques.
     score: 20 punts
     levels:
-      - Tots els actors involucrats en el sistema s'identifiquen clarament
-        i s'especifiquen les seves responsabilitats i interaccions amb el sistema. 
-      - La majoria dels actors estan identificats i s'especifiquen
-        les seves funcions, però amb algunes omissions o mancances en la descripció. 
-      - Alguns actors podrien faltar o la seva descripció és confusa o incompleta,
-        dificultant la comprensió del sistema. 
-      - No s'han identificat tots els actors
-        o la seua descripció és molt superficial o totalment inexistent. 
+      - Ús consistent i significatiu de noms de branques i commits que reflecteixen clarament el propòsit dels canvis.
+      - Utilització majoritàriament adequada de noms de branques i commits, però amb algunes excepcions.
+      - Ús irregular o poc significatiu de noms de branques i commits, dificultant la comprensió dels canvis.
+      - Falta d'ús de noms de branques i commits significatius, afectant la claredat del desenvolupament.
 
-  - title: Casos d'ús
-    description: Detall dels casos d'ús del sistema.
-    score: 30 punts
-    levels:
-      - Tots els casos d'ús importants s'identifiquen i descriuen amb detall,
-        incloent els seus actors associats, objectius i fluxos principals.
-      - La majoria dels casos d'ús estan identificats i descriuen amb cert detall,
-        però hi pot haver alguna manca d'informació o claredat en la descripció. 
-      - Alguns casos d'ús podrien estar omesos o la seva descripció és massa breu
-        o poc detallada, dificultant la comprensió del sistema. 
-      - Hi ha una manca d'identificació o descripció dels casos d'ús,
-        o la descripció és tan escassa que no aporta informació útil sobre el sistema.
-
-  - title: Relacions entre els Actors i els Casos d'Ús
+  - title: Branques de funcionalitat
     score: 20 punts
     levels:
-      - Les interaccions entre els actors i els casos d'ús es mostren clarament
-        i de manera precisa, incloent els casos d'ús estesos o inclosos si és
-        necessari.
-      - Les relacions entre els actors i els casos d'ús són adequades,
-        però podrien faltar alguns detalls o aclariments en els casos d'ús estesos o inclosos. 
-      - Hi ha algunes relacions entre actors i casos d'ús, però són poc clares o incompletes,
-        i potser hi ha omissions en els casos d'ús estesos o inclosos. 
-      - Les relacions entre actors i casos d'ús són confuses o absents,
-        dificultant la comprensió de com interactuen els diferents elements
-        del sistema.
+      - Creació correcta i consistent de branques de característiques per implementar noves funcionalitats. 
+      - Creació adequada de branques de característiques, però amb algunes inconsistències o negligències. 
+      - Creació irregular o poc freqüent de branques de característiques, afectant la gestió dels canvis. 
+      - Falta de creació de branques de característiques, dificultant la gestió del desenvolupament.
 
-  - title: Cohesió i Coherència del Diagrama
-    score: 30 punts
+  - title: Incorporació de branques de característiques
+    descripcio: Incorporació de branques de característiques amb `merge --squash`.
+    score: 20 punts
     levels:
-      - El diagrama de casos d'ús està ben estructurat i organitzat,
-        amb una distribució lògica dels casos d'ús i una clara cohesió temàtica.        
-      - El diagrama de casos d'ús té una estructura adequada, però pot haver-hi
-        algunes inconsistències o desordres en la distribució dels casos d'ús.
-      - L'estructura del diagrama de casos d'ús és confusa o desorganitzada,
-        amb manca de cohesió entre els casos d'ús i dificultats per comprendre el flux del sistema.
-      - La manca de cohesió i coherència en el diagrama de casos d'ús fa que
-        siga molt difícil de seguir o comprendre, amb informació dispersa
-        o contradictòria.
+      - Incorporació correcta de branques de característiques a
+        la branca de desenvolupament (`develop`) una vegada completades,
+        solucionant els conflictes de manera adequada.
+      - Incorporació adequada de branques de característiques,
+        però amb resolució de conflictes inadequada.
+      - Incorporació irregular o inadequada de branques de característiques,
+        afectant la coherència del codi. 
+      - Falta d'incorporació de branques de característiques a la
+        branca de desenvolupament, provocant divergències en el codi.
+
+  - title: Utilització de _Pull Requests_
+    score: 20 punts
+    levels:
+      - Ús habitual de Pull Requests per revisar i aprovar canvis abans
+        de la integració entre branques.
+      - Utilització de Pull Requests, però amb algunes deficiències
+        en la revisió o aprovació dels canvis. 
+      - Ús esporàdic o ineficient de Pull Requests.
+      - Falta d'ús de Pull Requests, comprometent la revisió i aprovació dels canvis. 
+
+  - title: Publicació
+    score: 20 punts
+    levels:
+      - Publicació correcta i ordenada dels canvis a la branca principal,
+        amb etiquetatge adequat i documentació associada.
+      - Publicació adequada dels canvis, però amb algunes mancances
+        en l'etiquetatge o la documentació.
+      - Publicació incorrecta o desordenada dels canvis,
+        afectant la traçabilitat dels canvis realitzats.
+      - Falta de publicació dels canvis a la branca principal.
+
