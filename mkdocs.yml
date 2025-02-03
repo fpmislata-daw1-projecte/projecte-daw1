@@ -152,6 +152,7 @@ nav:
       - implementacio/proves.md
       - implementacio/interficie_web.md
       - implementacio/desplegament.md
+      - implementacio/automatitzacio.md
   - Calendari:
     - calendari/index.md
     - calendari/sprint0.md
