@@ -16,10 +16,15 @@ de tasques. Aquestes tasques poden incloure:
 - Realitzar el desplegament.
 
 ## Tasques automatitzades en el projecte
-En aquest projecte, s'automatitzaran les següents tasques:
+En aquest projecte, s'utilitzara [:octicons-play-16: GitHub Actions][actions] per automatitzar les següents tasques:
 
-- Executar les [:material-marker-check: Proves del programari][proves]
-- Executar validacions d'estil en el codi font.
-- Compilar i empaquetar el codi del projecte.
+- Executar les [:material-marker-check: Proves del programari][proves] quan una
+    :material-source-pull: _Pull Request_ estiga preparada per a ser revisada.
+- Executar validacions d'estil en el codi font quan una
+    :material-source-pull: _Pull Request_ estiga preparada per a ser revisada.
+- Compilar i empaquetar el codi del projecte quan es realitze un nou
+    [:material-tray-arrow-up: Llançament (_Release_)][releases].
 
 [proves]: proves.md
+[actions]: https://github.com/features/actions
+[releases]: https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases
