@@ -2,11 +2,12 @@
 title: Sprint 0
 ---
 # Sprint 0
-## Temporització
+## :material-calendar: Temporització
 - __Data d'inici__: 28/01/2025
 - __Data de finalització__: 21/02/2025
+- __:material-human-male-board: Presentació - _Sprint Review___: 20/02/2025 a les 09:30
 
-## Tasques
+## :octicons-tasklist-24: Tasques
 +----------------------------+------------------------------------------------------------------------------------------+
 | Mòdul professional         | Tasques                                                                                  |
 +============================+==========================================================================================+
