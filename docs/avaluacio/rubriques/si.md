@@ -8,9 +8,9 @@ alias: rubriques-si
 
 Tenint en compte els requisits de l'aplicació que implementarem (llenguatge de programació, tecnologia utilitzada, etc) se sol·liciten els següents estudis per a planificar i realitzar el desplegament:
 
-1. Estudi de possibles requisits maquinari necessari
+1. Estudi de possible programari necessari (servidors, servicis, etc).
 2. Estudi de possibles Sistemes Operatius necessaris.
-3. Estudi de possible programari necessari (servidors, servicis, etc)
+3. Estudi de possibles requisits maquinari necessari.
 
 /// rubric
 --8<-- "docs/avaluacio/rubriques/_si/desplegament.yml"

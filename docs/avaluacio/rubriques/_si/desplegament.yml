@@ -4,28 +4,23 @@ levels:
   - Insuficient
 
 criteria:
-  - title: Execució de proves automatitzades
-    score: 40 punts
+  - title: Estudi programari
+    score: 34 punts
     levels:
-      - S'han automatitzat l'execució de totes les proves unitàries i d'integració
-        i s'executen en cada integració de codi.
-      - Hi ha errors en l'execució de les proves automatitzades o no s'executen
-        en cada integració de codi.
-      - No s'han automatitzat l'execució de les proves unitàries i d'integració.
+      - S'han estudiat un mínim de 2 programes i s'han seleccionat justificadament els programes necessaris. 
+      - S'ha estudiat i seleccionat justificadament un únic programa necessari.
+      - No s'ha estudiat ni seleccionat justificadament cap programari.
 
-  - title: Comprovació d'estils de codi
-    score: 30 punts
+  - title: Estudi Sistemes Operatius
+    score: 33 punts
     levels:
-      - S'ha automatitzat correctament la comprovació de l'estil de codi
-        i s'aplica en la integració de les branques de funcionalitat.
-      - Hi ha errors en la comprovació de l'estil de codi o no s'aplica
-        en la integració de les branques de funcionalitat.
-      - No s'ha automatitzat la comprovació de l'estil de codi.
+      - S'han estudiat un mínim de 2 sistemes operatius i s'ha seleccionat justificadament un. 
+      - S'ha estudiat i seleccionat justificadament el sistema operatiu.
+      - No s'ha estudiat ni seleccionat cap sistema operatiu.
 
-  - title: Empaquetament automàtic
-    score: 30 punts
+  - title: Estudi requisits hardware
+    score: 33 punts
     levels:
-      - S'ha automatitzat l'empaquetament de l'aplicació en un artefacte
-        executable o desplegable.
-      - Hi ha errors en l'empaquetament automàtic o no s'ha automatitzat.
-      - No s'ha automatitzat l'empaquetament de l'aplicació.
+      - S'han estudiat i definit completament els requisits hardware del sistema
+      - S'han estudiat i definit de manera bàsica els requisits hardware del sistema
+      - No s'ha estudiat o definit els requisits hardware del sistema
