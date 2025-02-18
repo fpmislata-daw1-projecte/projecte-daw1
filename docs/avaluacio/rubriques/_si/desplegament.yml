@@ -1,0 +1,26 @@
+levels:
+  - Excel·lent
+  - Acceptable
+  - Insuficient
+
+criteria:
+  - title: Estudi programari
+    score: 34 punts
+    levels:
+      - S'han estudiat un mínim de 2 programes i s'han seleccionat justificadament els programes necessaris. 
+      - S'ha estudiat i seleccionat justificadament un únic programa necessari.
+      - No s'ha estudiat ni seleccionat justificadament cap programari.
+
+  - title: Estudi Sistemes Operatius
+    score: 33 punts
+    levels:
+      - S'han estudiat un mínim de 2 sistemes operatius i s'ha seleccionat justificadament un. 
+      - S'ha estudiat i seleccionat justificadament el sistema operatiu.
+      - No s'ha estudiat ni seleccionat cap sistema operatiu.
+
+  - title: Estudi requisits hardware
+    score: 33 punts
+    levels:
+      - S'han estudiat i definit completament els requisits hardware del sistema
+      - S'han estudiat i definit de manera bàsica els requisits hardware del sistema
+      - No s'ha estudiat o definit els requisits hardware del sistema
