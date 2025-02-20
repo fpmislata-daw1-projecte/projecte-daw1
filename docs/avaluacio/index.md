@@ -8,6 +8,11 @@ alias: avaluacio
 ## Instruments d'avaluació
 L'avaluació del projecte es realitzarà utilitzant els següents instruments d'avaluació:
 
+- __Autoavaluació i coavaluació__: Al final de cada [__Sprint__][scrum],
+    es realitzarà una autoavaluació i coavaluació entre els membres del grup,
+    que servirà per a identificar quins aspectes del treball en grup han funcionat
+    i quins cal millorar.
+
 - __Revisió del contracte__: A cada [__Retrospectiva del Sprint__][cerimonies-scrum],
     es revisarà el [__contracte del grup__][contracte] per tal de comprovar que s'ha treballat
     correctament segons el acordat entre els membres del grup.
@@ -21,6 +26,7 @@ L'avaluació del projecte es realitzarà utilitzant els següents instruments d'
     tècnics treballats al projecte.
 
 
+[scrum]: ../gestio/scrum.md
 [cerimonies-scrum]: ../gestio/scrum.md#cerimonies-de-scrum
 [contracte]: ../gestio/formacio_grups.md#contracte
 
