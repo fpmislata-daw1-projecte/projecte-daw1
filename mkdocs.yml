@@ -159,7 +159,7 @@ nav:
     - calendari/sprint1.md
     - calendari/sprint2.md
     - calendari/sprint3.md
-    - calendari/sprint4.md
+    # - calendari/sprint4.md
     # - calendari/sprint5.md
   - Avaluació:
     - avaluacio/index.md

@@ -3,8 +3,12 @@ title: Sprint 3
 ---
 # Sprint 3
 ## Temporització
-- __Data d'inici__: 31/03/2025
-- __Data de finalització__: 11/04/2025
+!!! danger
+    A la finalització d'aquest _sprint_
+    la implementació del projecte hauria d'estar acabada.
+
+- __Data d'inici__: 14/04/2025
+- __Data de finalització__: 16/05/2025
 
 ## Tasques
 +----------------------------+------------------------------------------------------------------------------------------+
@@ -12,7 +16,11 @@ title: Sprint 3
 +============================+==========================================================================================+
 | Bases de dades             |                                                                                          |
 +----------------------------+------------------------------------------------------------------------------------------+
-| Entorns de desenvolupament | [:fontawesome-solid-gears: Automatització][automatitzacio]                               | 
+| Entorns de desenvolupament | [:material-marker-check: Proves del programari][proves]:                                 |
+|                            | Proves d'integració.                                                                     |
+|                            +------------------------------------------------------------------------------------------+
+|                            | [:fontawesome-solid-gears: Automatització][automatitzacio]                               |
+|                            | Comprovacions d'estil.                                                                   |
 +----------------------------+------------------------------------------------------------------------------------------+
 | Llenguatges de marques     |                                                                                          |
 +----------------------------+------------------------------------------------------------------------------------------+
@@ -22,3 +30,4 @@ title: Sprint 3
 +----------------------------+------------------------------------------------------------------------------------------+
 
 [automatitzacio]: ../implementacio/automatitzacio.md
+[proves]: ../implementacio/proves.md
