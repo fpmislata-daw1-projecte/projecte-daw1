@@ -5,6 +5,7 @@ DAOs
 DAW
 DDL
 intermodular
+IoC
 JUnit
 kanban
 MkDocs
