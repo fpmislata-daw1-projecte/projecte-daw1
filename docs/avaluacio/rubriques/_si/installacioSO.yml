@@ -1,0 +1,58 @@
+levels:
+  - Fet
+  - No fet
+
+criteria:
+  - title: Instal·lació del sistema operatiu
+    score: 10 punts
+    levels:
+      - S'ha instal·lat correctament el sistema operatiu en una màquina virtual amb els requisits mínims. 
+      - No s'ha instal·lat correctament el sistema operatiu.
+
+  - title: Usuaris
+    score: 10 punts
+    levels:
+      - S'han creat correctament els usuaris i grups necessaris amb els permisos adequats. 
+      - No s'han creat correctament els usuaris i grups necessaris amb els permisos adequats.
+
+  - title: Instal·lar software
+    score: 10 punts
+    levels:
+      - S'ha estudiat el mode d'instal·lació del software necessari en el SO seleccionat.
+      - No s'ha estudiat el mode d'instal·lació del software necessari en el SO seleccionat.
+
+  - title: Actualitzacions
+    score: 10 punts
+    levels:
+      - S'han instal·lat les actualitzacions del sistema operatiu.
+      - No s'han instal·lat les actualitzacions del sistema operatiu.
+
+  - title: Actualitzacions automàtiques
+    score: 10 punts
+    levels:
+      - S'han configurat les actualitzacions automàtiques del sistema operatiu.
+      - No s'han configurat les actualitzacions automàtiques del sistema operatiu.
+
+  - title: Còpies de seguretat
+    score: 10 punts
+    levels:
+      - S'han configurat les còpies de seguretat del sistema operatiu.
+      - No s'han configurat les còpies de seguretat del sistema operatiu.
+
+  - title: Configuració de la xarxa
+    score: 10 punts
+    levels:
+      - S'ha configurat correctament la xarxa amb una IP fixa.
+      - No s'ha configurat correctament la xarxa amb una IP fixa.
+
+  - title: Seguretat bàsica
+    score: 10 punts
+    levels:
+      - S'ha configurat la seguretat bàsica del sistema operatiu.
+      - No s'ha configurat la seguretat bàsica del sistema operatiu.
+
+  - title: Conexió SSH
+    score: 20 punts
+    levels:
+      - S'ha configurat la connexió SSH al servidor amb certificat.
+      - No s'ha configurat la connexió SSH al servidor amb certificat.
