@@ -40,7 +40,7 @@ Aquesta estratègia es basa en la creació de branques per a diferents propòsit
 El mètode per integrar les branques de funcionalitats es realitzarà mitjançant
 un `merge --squash` per a mantenir l'historial de commits net i ordenat.
 
-![Fusió de branques en un sol commit](../img/merge_squash.png)
+![Fusió de branques en un sol commit](img/merge_squash.png)
 /// figure-caption
 Fusió de branques mitjançant `merge --squash`.
 ///
@@ -49,13 +49,13 @@ Podeu consultar el flux de treball complet en els apunts [Estratègies de ramifi
 
 
 ## Pull Requests
-Dins de l'àmbit de gestió del projectes, :simple-github: GitHub proporciona una eina
+Dins de l'àmbit de gestió del projectes, :simple-github: GitHub proporciona una funcionalitat
 anomenada __:material-source-pull: Pull Request__ que permet sol·licitar la integració de canvis d'una branca
 a una altra.
 
-Podeu consultar els apunts [Forks i Pull Requests][forks-pull-requests] per a més informació.
+Podeu consultar els apunts [Pull Requests][pull-requests] per a més informació.
 
-[forks-pull-requests]: https://joapuiib.github.io/curs-git/apunts/06_projectes/02_forks/#pull-requests
+[pull-requests]: https://joapuiib.github.io/curs-git/apunts/06_projectes/02_forks/#pull-requests
 
 !!! tip
     És recomanable configurar el repositori per a requerir els següents aspectes:
@@ -69,15 +69,15 @@ Podeu consultar els apunts [Forks i Pull Requests][forks-pull-requests] per a m�
 El __flux de treball__ que seguirem en el desenvolupament del projecte és
 el següent:
 
-1. Crear una branca `feature/*` per a cada nova funcionalitat,
+1. __Crear una branca `feature/*`__ per a cada nova funcionalitat,
     amb un nom significatiu i descriptiu.
 1. Començar a desenvolupar la funcionalitat en la branca corresponent (fer almenys un commit).
 1. Obrir una __:material-source-pull: Pull Request__ de la branca de la funcionalitat a la branca `develop`
     com a __:octicons-git-pull-request-draft-24: Esborrany o *Draft*__.
 
-    - Especifiqueu un títol significatiu.
-    - Indiqueu una descripció clara i concisa dels canvis realitzats.
-    - Assigneu-se com a responsables.
+    - Especifiqueu un __títol__ significatiu.
+    - Indiqueu una __descripció__ clara i concisa dels canvis realitzats.
+    - Assigneu-se com a __responsable__.
 
 1. Realitzar tants commits com siga necessari per a completar la funcionalitat.
 1. Si la branca no està actualitzada amb `develop`, fusiona `develop` en la branca de la funcionalitat
@@ -90,4 +90,4 @@ el següent:
 
 1. Finalment, integrar la funcionalitat en la branca de desenvolupament mitjançant un __`merge --squash`__.
 
-[automatitzacio]: ../../implementacio/automatitzacio.md
+[automatitzacio]: ../implementacio/automatitzacio.md
