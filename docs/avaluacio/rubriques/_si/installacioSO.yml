@@ -51,7 +51,7 @@ criteria:
       - S'ha configurat la seguretat bàsica del sistema operatiu.
       - No s'ha configurat la seguretat bàsica del sistema operatiu.
 
-  - title: Conexió SSH
+  - title: Connexió SSH
     score: 20 punts
     levels:
       - S'ha configurat la connexió SSH al servidor amb certificat.

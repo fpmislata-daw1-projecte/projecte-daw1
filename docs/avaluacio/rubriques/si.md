@@ -19,14 +19,14 @@ Tenint en compte els requisits de l'aplicació que implementarem (llenguatge de 
 
 ## Lliurament 2 - Instal·lació i configuració del sistema operatiu
 
-- Ubuntu Server (sudo)
-- Usuaris (admins, /etc/sudoers, grup sudo)
+- Ubuntu Server (`sudo`)
+- Usuaris (administradors, `/etc/sudoers`, grup `sudo`)
 - Actualitzacions? (automatitzar-les?)
 - Instal·lar software?
 - Còpies de seguretat? (automatitzar-les?)
-- Configurar la xarxa (ip fixa)
-- Seguretat bàsica (iptables, ufw, fail2ban)
-- Conexió ssh (certificat ssh)
+- Configurar la xarxa (IP fixa)
+- Seguretat bàsica (`iptables`, `ufw`, `fail2ban`)
+- Connexió SSH (certificat SSH)
 
 /// rubric
 --8<-- "docs/avaluacio/rubriques/_si/installacioSO.yml"
