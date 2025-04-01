@@ -1,14 +1,16 @@
 ---
 title: Sprint 1
+icon: octicons/iterations-16
 ---
 *[IoC]: Inversion of Control
 
-# Sprint 1
-## Temporització
+# :octicons-iterations-16: Sprint 1
+## :material-calendar: Temporització
 - __Data d'inici__: 24/02/2025
 - __Data de finalització__: 14/03/2025
+- __:material-human-male-board: Presentació - _Sprint Review___: 13/03/2025 a les 09:30
 
-## Tasques
+## :octicons-tasklist-24: Tasques
 +----------------------------+--------------------------------------------------------------------------+
 | Mòdul professional         | Tasques                                                                  |
 +============================+==========================================================================+

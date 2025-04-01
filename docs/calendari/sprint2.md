@@ -1,12 +1,14 @@
 ---
 title: Sprint 2
+icon: octicons/iterations-16
 ---
-# Sprint 2
-## Temporització
+# :octicons-iterations-16: Sprint 2
+## :material-calendar: Temporització
 - __Data d'inici__: 20/03/2025
 - __Data de finalització__: 11/04/2025
+- __:material-human-male-board: Presentació - _Sprint Review___: 10/04/2025 a les 09:30
 
-## Tasques
+## :octicons-tasklist-24: Tasques
 +----------------------------+--------------------------------------------------------------+
 | Mòdul professional         | Tasques                                                      |
 +============================+==============================================================+
