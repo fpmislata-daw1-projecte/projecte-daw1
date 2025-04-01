@@ -1,7 +1,8 @@
 ---
 title: Sprint 0
+icon: octicons/iterations-16
 ---
-# Sprint 0
+# :octicons-iterations-16: Sprint 0
 ## :material-calendar: Temporització
 - __Data d'inici__: 28/01/2025
 - __Data de finalització__: 21/02/2025

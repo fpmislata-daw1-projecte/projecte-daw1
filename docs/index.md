@@ -1,5 +1,6 @@
 ---
 title: Inici
+icon: material/home
 ---
 # Projecte DAW1
 

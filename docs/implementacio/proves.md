@@ -37,7 +37,7 @@ ferramentes:
 - [Mockito][mockito]: Llibreria per a la creació d'__objectes simulats__.
     Aquesta ferramenta és essencial per a la realització de proves unitàries i d'integració
     de components que depenen d'altres components.
-- [H2 Database][h2]: __Base de dades incrustada en memòria__ per realitzar proves 
+- [:simple-h2database: H2 Database][h2]: __Base de dades incrustada en memòria__ per realitzar proves 
     dels components que realitzen operacions amb la base de dades.
 
     Aquesta base de dades ens permet realitzar proves sense dependre d'una base de dades
