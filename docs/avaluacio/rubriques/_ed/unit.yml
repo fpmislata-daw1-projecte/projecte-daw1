@@ -17,7 +17,7 @@ criteria:
       - Falta de proves de les entitats o proves insuficients que no garanteixen la integritat dels seus mètodes.
 
   - title: Proves unitàries dels serveis
-    score: 20 punts
+    score: 25 punts
     levels:
       - Cobertura completa de totes les funcionalitats dels serveis, incloent totes les operacions
         dels mètodes i verificant-ne el comportament en diferents escenaris.
@@ -29,7 +29,7 @@ criteria:
         el comportament esperat dels mètodes.
 
   - title: Proves unitàries dels repositoris
-    score: 20 punts
+    score: 25 punts
     levels:
       - Proves exhaustives dels repositoris que verifiquen l'accés a la base de dades, la recuperació
         de dades i la gestió d'errors en diferents escenaris.
@@ -39,20 +39,20 @@ criteria:
         de fallada o altres escenaris complexos.
       - Falta de proves dels repositoris o proves que no garanteixen la fiabilitat de l'accés a la base de dades.
 
-  - title: Proves unitàries dels `RowMapper`
-    score: 20 punts
-    levels:
-      - Proves completes que verifiquen la conversió de les files de la base de dades
-        a objectes del domini, incloent totes les propietats i relacions.
-      - Proves adients, però podrien faltar alguns casos de prova per a propietats
-        específiques o relacions complexes.
-      - Proves limitades només verificant la conversió de les propietats més bàsiques
-        sense abordar totes les relacions o gestió d'errors.
-      - Falta de proves o proves insuficients que no asseguren la correcta conversió
-        de les dades de la base de dades als objectes del domini.
+        #- title: Proves unitàries dels `RowMapper`
+        #  score: 20 punts
+        #  levels:
+        #    - Proves completes que verifiquen la conversió de les files de la base de dades
+        #      a objectes del domini, incloent totes les propietats i relacions.
+        #    - Proves adients, però podrien faltar alguns casos de prova per a propietats
+        #      específiques o relacions complexes.
+        #    - Proves limitades només verificant la conversió de les propietats més bàsiques
+        #      sense abordar totes les relacions o gestió d'errors.
+        #    - Falta de proves o proves insuficients que no asseguren la correcta conversió
+        #      de les dades de la base de dades als objectes del domini.
 
   - title: Proves unitàries dels DAO
-    score: 20 punts
+    score: 30 punts
     levels:
       - Proves completes que verifiquen l'accés a la base de dades mitjançant els objectes d'accés a dades (DAO),
         incloent operacions de lectura, escriptura i eliminació.
