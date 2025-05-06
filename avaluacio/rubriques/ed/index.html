@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.11">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
     
     
       
@@ -26,7 +26,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.4af4bdda.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.2afb09e1.min.css">
       
         
         <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
@@ -1710,7 +1710,7 @@ de les proves unitàries dels diferents components de l’aplicació.</p>
 <tr>
 <td>
 <div class="rubric__criteria-title">Proves unitàries dels serveis</div>
-<div class="rubric__criteria-score">20 punts</div>
+<div class="rubric__criteria-score">25 punts</div>
 </td>
 <td class="rubric__criteria-element">
 <div class="rubric__criteria-element-description">Cobertura completa de totes les funcionalitats dels serveis, incloent totes les operacions dels mètodes i verificant-ne el comportament en diferents escenaris.</div>
@@ -1728,7 +1728,7 @@ de les proves unitàries dels diferents components de l’aplicació.</p>
 <tr>
 <td>
 <div class="rubric__criteria-title">Proves unitàries dels repositoris</div>
-<div class="rubric__criteria-score">20 punts</div>
+<div class="rubric__criteria-score">25 punts</div>
 </td>
 <td class="rubric__criteria-element">
 <div class="rubric__criteria-element-description">Proves exhaustives dels repositoris que verifiquen l'accés a la base de dades, la recuperació de dades i la gestió d'errors en diferents escenaris.</div>
@@ -1745,26 +1745,8 @@ de les proves unitàries dels diferents components de l’aplicació.</p>
 </tr>
 <tr>
 <td>
-<div class="rubric__criteria-title">Proves unitàries dels <code>RowMapper</code></div>
-<div class="rubric__criteria-score">20 punts</div>
-</td>
-<td class="rubric__criteria-element">
-<div class="rubric__criteria-element-description">Proves completes que verifiquen la conversió de les files de la base de dades a objectes del domini, incloent totes les propietats i relacions.</div>
-</td>
-<td class="rubric__criteria-element">
-<div class="rubric__criteria-element-description">Proves adients, però podrien faltar alguns casos de prova per a propietats específiques o relacions complexes.</div>
-</td>
-<td class="rubric__criteria-element">
-<div class="rubric__criteria-element-description">Proves limitades només verificant la conversió de les propietats més bàsiques sense abordar totes les relacions o gestió d'errors.</div>
-</td>
-<td class="rubric__criteria-element">
-<div class="rubric__criteria-element-description">Falta de proves o proves insuficients que no asseguren la correcta conversió de les dades de la base de dades als objectes del domini.</div>
-</td>
-</tr>
-<tr>
-<td>
 <div class="rubric__criteria-title">Proves unitàries dels <abbr title="Data Access Object">DAO</abbr></div>
-<div class="rubric__criteria-score">20 punts</div>
+<div class="rubric__criteria-score">30 punts</div>
 </td>
 <td class="rubric__criteria-element">
 <div class="rubric__criteria-element-description">Proves completes que verifiquen l'accés a la base de dades mitjançant els objectes d'accés a dades (<abbr title="Data Access Object">DAO</abbr>), incloent operacions de lectura, escriptura i eliminació.</div>
@@ -1845,47 +1827,32 @@ d'<strong>Integració Contínua (<abbr title="Continuous Integration">CI</abbr>)
 <tbody>
 <tr>
 <td>
-<div class="rubric__criteria-title">Execució de proves automatitzades</div>
-<div class="rubric__criteria-score">40 punts</div>
+<div class="rubric__criteria-title">Automatització execució de proves unitàries</div>
+<div class="rubric__criteria-score">50 punts</div>
 </td>
 <td class="rubric__criteria-element">
-<div class="rubric__criteria-element-description">S'han automatitzat l'execució de totes les proves unitàries i d'integració i s'executen en cada integració de codi.</div>
+<div class="rubric__criteria-element-description">S'han automatitzat l'execució de les proves unitàries i s'executen en cada integració de codi.</div>
+</td>
+<td class="rubric__criteria-element">
+<div class="rubric__criteria-element-description">Hi ha errors en l'execució de les proves automatitzades o no s'executen en cada integració de codi.</div>
+</td>
+<td class="rubric__criteria-element">
+<div class="rubric__criteria-element-description">No s'han automatitzat l'execució de les proves unitàries.</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="rubric__criteria-title">Automatització execució de proves d'integració</div>
+<div class="rubric__criteria-score">50 punts</div>
+</td>
+<td class="rubric__criteria-element">
+<div class="rubric__criteria-element-description">S'han automatitzat l'execució de les d'integració i s'executen en cada integració de codi després de les proves unitàries.</div>
 </td>
 <td class="rubric__criteria-element">
 <div class="rubric__criteria-element-description">Hi ha errors en l'execució de les proves automatitzades o no s'executen en cada integració de codi.</div>
 </td>
 <td class="rubric__criteria-element">
 <div class="rubric__criteria-element-description">No s'han automatitzat l'execució de les proves unitàries i d'integració.</div>
-</td>
-</tr>
-<tr>
-<td>
-<div class="rubric__criteria-title">Comprovació d'estils de codi</div>
-<div class="rubric__criteria-score">30 punts</div>
-</td>
-<td class="rubric__criteria-element">
-<div class="rubric__criteria-element-description">S'ha automatitzat correctament la comprovació de l'estil de codi i s'aplica en la integració de les branques de funcionalitat.</div>
-</td>
-<td class="rubric__criteria-element">
-<div class="rubric__criteria-element-description">Hi ha errors en la comprovació de l'estil de codi o no s'aplica en la integració de les branques de funcionalitat.</div>
-</td>
-<td class="rubric__criteria-element">
-<div class="rubric__criteria-element-description">No s'ha automatitzat la comprovació de l'estil de codi.</div>
-</td>
-</tr>
-<tr>
-<td>
-<div class="rubric__criteria-title">Empaquetament automàtic</div>
-<div class="rubric__criteria-score">30 punts</div>
-</td>
-<td class="rubric__criteria-element">
-<div class="rubric__criteria-element-description">S'ha automatitzat l'empaquetament de l'aplicació en un artefacte executable o desplegable.</div>
-</td>
-<td class="rubric__criteria-element">
-<div class="rubric__criteria-element-description">Hi ha errors en l'empaquetament automàtic o no s'ha automatitzat.</div>
-</td>
-<td class="rubric__criteria-element">
-<div class="rubric__criteria-element-description">No s'ha automatitzat l'empaquetament de l'aplicació.</div>
 </td>
 </tr>
 </tbody>
