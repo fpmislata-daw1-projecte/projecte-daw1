@@ -1,4 +1,10 @@
 name: spellcheck # Nom de l'automatització
+on: # Events que disparen l'automatització
+  pull_request:
+    # Tipus d'events sobre la pull request
+    types: ['opened', 'edited', 'reopened', 'synchronize', 'ready_for_review']
+    branches:
+      - '**' # Quan s'obri un pull request a qualsevol branca
 
 jobs: # Llista de tasques a executar
   changed-files: # Nom de la tasca
