@@ -2,12 +2,23 @@ site_name: "Projecte DAW1"
 site_url: https://fpmislata-daw1-projecte.github.io/projecte-daw1/
 repo_name: projecte-daw1
 repo_url: https://github.com/fpmislata-daw1-projecte/projecte-daw1
+copyright: CC BY-NC-SA 4.0 (Reconeixement - NoComercial - CompartirIgual) 🅭 Equip educatiu DAW1 del CIPFP Mislata
 
 exclude_docs: |
   _*
 
 extra_css:
   - assets/styles/styles.css
+
+extra:
+  social:
+    - icon: octicons/organization-24
+      link: https://www.fpmislata.com/wordpress/
+      name: CIPFP Mislata
+    - icon: fontawesome/brands/github
+      link: https://github.com/projecte-daw1
+      name: projecte-daw1 a GitHub
+
 
 theme:
   name: material
